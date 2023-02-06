@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+   
+    
+    box-sizing: border-box;
+}
+.formargin{
+    padding: 10rem;
+}
+    
+
+svg{
+    width: 6rem;
+}
+.innerdiv{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav{
+    overflow: hidden;
+    padding: .75rem 12rem .75rem 12rem;
+    display: flex;
+    gap: 2rem;
+    vertical-align: middle;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.nav-links a, .contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+.verticalline{
+    width: 1px;
+    height:1rem;
+    color: black;
+    border: 1px solid grey;
+    opacity: 0.2;
+}
+
+.subtext{
+    font-size: large;
+    margin: 1rem 0 1rem 0;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.trynotion{
+    background-color: rgb(247, 104, 53);
+    color: white;
+    font-weight: 700;
+    padding:0.5rem 1rem;
+    border-radius: .35rem;
+    border: none;
+}
+
+.small-img{
+    margin-right: 1rem;
+    width: 100px;
+    opacity: .75;
+}
+
+section{
+    margin: 1rem 5rem 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:4rem;
+}
+.maintext{
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 3.75rem;
+}
+
+.part2{
+
+    margin-top: 1.5rem;
+    filter: grayscale(100%);
+}
+
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.spot{
+    width:100px
+}
+
+.rightimg{
+width: 900px;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left{
+    margin-left: 3rem;
+}
+.maintext2{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.subtext2{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color:rgb(65, 60, 60)
+}
+
+.sec3{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sec5{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.spoteco{
+    width: 50px;
+}
+
+.hr{
+    width: 1200px;
+    height: 0.5px;
+    background-color: grey;
+    margin: 5rem auto;
+}
+
+.maintext3{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.bookself{
+    width: 300px;
+}
+.btn-white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    background-color: white;
+    color: black;
+    border:0.2px solid gray;
+    border-radius: 5px;
+    padding:.75rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin: 1rem 1rem 1rem 0;
+}
+.btn-white:hover{
+    background-color: rgb(233, 225, 225);
+}
+.btns{
+    display: flex;
+    
+}
+.arrow{
+    width:15px
+}
+.blockspot{
+    width:350px
+}
+.imgs{
+   display: flex;
+   justify-content: space-between;
+  
+}
+.img12{
+    width: 400px;
+}
+.section1{
+    margin: 1rem 5rem 0 5rem;
+    margin-top: 4rem;
+}
+
+.team-work{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.innerdiv1{
+    display: flex;
+   margin-top: 1rem;
+    
+    align-items: center;
+    
+}
+#alumin{
+    display: flex;
+    justify-content: space-between;
+}
+.last{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.last p,button{
+    margin-bottom: 1rem;
+}
+.last a{
+    color: rgb(66, 66, 66);
+}
+.last a:hover{
+    text-decoration: none;
+    color: orangered;
+    
+}
